@@ -11,5 +11,5 @@ sudo apt-get install bubblewrap socat  #Ubuntu / Debian
 > claude --settings managed-settings.json
 ```
 For further information about permission settings, refer: 
-- (Claude Code settings)[https://code.claude.com/docs/en/settings]
+- [Claude Code settings](https://code.claude.com/docs/en/settings)
 
