@@ -1,0 +1,19 @@
+{
+    "env": {
+        "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": 1
+    },
+    "cleanupPeriodDays": 7,
+    "disableAllHooks": true,
+    "permissions": {
+        "disableBypassPermissionsMode": "disable",
+        "deny": [
+            "Read(**/.env)",
+            "Bash(sudo:*)",
+            "Bash(rm:*)",
+            "Bash(su:*)",
+            "Bash(curl:*)",
+            "Bash(wget:*)",
+            "Bash(ssh:*)"
+        ]
+    }
+}
