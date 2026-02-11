@@ -8,7 +8,7 @@ wsl2 ## for Windows
 sudo apt-get install bubblewrap socat  #Ubuntu / Debian
 #Enable Sandbox
 > /sandbox
-> Claude
+> claude --settings managed-settings.json
 ```
 
 
