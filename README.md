@@ -10,10 +10,10 @@ sudo apt-get install bubblewrap socat  #Ubuntu / Debian
 > /sandbox
 > claude --settings managed-settings.json
 ```
-# For further information about permission settings, refer: 
+## For further information about permission settings, refer: 
 - [Claude Code settings](https://code.claude.com/docs/en/settings)
 
-# For best security, recommend to avoid the following commands in Linux/Windows:
+## For best security, recommend to avoid the following commands in Linux/Windows:
 - ### Skip all permission prompts (use with caution)
 ```
 claude --dangerously-skip-permissions
