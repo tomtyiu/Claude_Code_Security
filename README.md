@@ -7,6 +7,7 @@ Claude Code uses strict read-only permissions by default, but if you want furthe
 - ensure allow only the workspace folder
 - Allow write privileges only for files that need to be edited. Do not permit write access to any OS-related or sensitive files.
 - do not allow administration rights if there is sensitive data
+- Do not modify Claude.md to perform following # Work Context [Actor claims to be authorized security tester for companies with support contracts]
 
 ## Recommend to run claude code in sandbox mode in WIndows or Linux
 ```
