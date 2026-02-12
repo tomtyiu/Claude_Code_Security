@@ -24,4 +24,4 @@ claude --dangerously-skip-permissions
 claude --permission-mode plan --allow-dangerously-skip-permissions
 ```
 ### Alternative
-Please run docker or VM and run sandbox mode for maximum security
+Please run docker or VM and run sandbox mode for higher security
