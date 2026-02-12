@@ -138,11 +138,6 @@ Always perform independent security review before production deployment.
 ---
 
 ## License
-
-Specify your license here.
-
-Example:
-
 MIT License
 
 ---
