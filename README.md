@@ -1,6 +1,7 @@
 ## Claude_Code_Security - Setup for least privilege  Claude Code
 This is repositiory to provide Claude code security and safety information
 Claude Code uses strict read-only permissions by default, but if you want further security, here are some further settings and commands.
+
 ## Recommend to run claude code in sandbox mode in WIndows or Linux
 ```
 wsl2 ## for Windows
@@ -22,3 +23,5 @@ claude --dangerously-skip-permissions
 ```
 claude --permission-mode plan --allow-dangerously-skip-permissions
 ```
+### Alternative
+Please run docker or VM and run sandbox mode for maximum security
